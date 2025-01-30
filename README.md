@@ -84,3 +84,19 @@ Hay dos tipos de pruebas en la lista de comprobación: positivas y negativas (c�
 Recibir el token también puede ser una función separada. Llámala get_new_user_token().
 Cada prueba debe estar en una función separada con el prefijo test, de lo contrario, Pytest las ignorará.
 
+
+#INFORMACIÓN A COMPLETAR
+
+El proyecto se realizó a través de PyCharm, terminal y Github.
+
+Se creó repositorio en Github llamado: qa-project-Urban-Grocers-app-es.
+Terminal: se creó carpeta "projects" a traves del comando *mkdir projects* donde se guardó el proyecto.
+Se realizó clonacion del repositorio por SSH: git clone git@github.com:EdnaElisa/qa-project-Urban-Grocers-app-es.git
+
+Se instaló git a través de homebrew en la terminal: brew install git
+Continuamos para la actualizacion del código: 
+git init: inicialización 
+git add .: para agregar los nuevos archivos o actualizaciones del codigo
+git commit -m "Proyecto Sprint 7"
+
+Se enviaron correciones: para actualizar repositorio se ejecutó el comando: git push origin main
