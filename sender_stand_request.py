@@ -7,13 +7,12 @@ def post_new_user(body):
                          json=body,  # inserta el cuerpo de solicitud
                          headers=data.headers)  # inserta los encabezados
 
+#se actualiza funcion de post new client
 def post_new_client_kit(kit_body):
     create_user = post_new_user(data.user_body)
     auth_token = create_user.json()['authToken']
-    headers = {
-        "Content-Type": "application/json",
-        "Authorization": "Bearer {auth_token}"
-    }
+    headers = data.headers.copy()
+    headers["Authorization"] = f"Bearer {auth_token}"
     return requests.post(configuration.URL_SERVICE + configuration.KITS_PATH,
                          json=kit_body,
                          headers=headers

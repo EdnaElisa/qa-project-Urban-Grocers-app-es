@@ -25,6 +25,7 @@ kit_body_name_test6 = "A Aaa"
 
 kit_body_name_test7 = "123"
 
-kit_body_name_test8 =
+#se actualiza dato de test 8
+kit_body_name_test8 = None
 
 kit_body_name_test9 = 123
